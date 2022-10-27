@@ -1,0 +1,3 @@
+Tested async function does not contain a catch block to handle rejected promises. 
+
+However when asserting a rejected promise to be present, the test still passes. Why?
